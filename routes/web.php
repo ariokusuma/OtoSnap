@@ -18,6 +18,20 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
+    return view('landingpage');
+});
+
+Route::get('team', function () {
+    return view('team');
+});
+
+
+Route::get('test', function () {
     return view('HomeScreen');
+});
+
+// OtoTeam
+Route::get('aboutus', function () {
+    return view('aboutus');
 });
 

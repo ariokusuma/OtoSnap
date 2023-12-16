@@ -14,7 +14,7 @@ export default {
             abu : '#EDEDED',
             abu2 : '#6C6C6C',
             oren : '#F24E1E',
-            oren2 : '#FBCABB',
+            oren2 : '#FFD5C8',
 
 
             biru: '#0e76d8',
