@@ -17,7 +17,7 @@
 
                 <div class="mt-14">
 
-                    <a href="#"
+                    <a href="https://bit.ly/otosnapreview" target="_blank"
                         class="inline-flex items-center justify-center px-5 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-biru hover:bg-biru2 focus:ring-4 focus:ring-primary-300 ">
                         <svg class="w-[14px] h-[14px] mr-2 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor" viewBox="0 0 14 16">
@@ -64,34 +64,34 @@
                 <div class="grid grid-cols-4 gap-8 items-center justify-center">
                     {{-- Image 1 --}}
                     <div class="flex flex-col items-center justify-center">
-                        <img class="h-[550px]" src="{{ asset('assets/HalamanUtama.png') }}" alt="">
+                        <img class="h-[550px]" src="{{ asset('assets/mockup/homescreen.png') }}" alt="">
                         <div class="mt-4 font-normal  lg:mb-16 sm:text-xl text-center">
                             <h1 class="font-bold tracking-wide">Home Screen sederhana</h1>
-                            <p class="text-gray-500 text-lg">Didesain agar familiar bagi Anda.</p>
+                            <p class="text-gray-500 text-lg">Didesain agar familiar dan mudah digunakan.</p>
                         </div>
                     </div>
                     {{-- Image 1 --}}
                     <div class="flex flex-col items-center justify-center">
-                        <img class="h-[550px]" src="{{ asset('assets/HalamanUtama.png') }}" alt="">
+                        <img class="h-[550px]" src="{{ asset('assets/mockup/otofinder.png') }}" alt="">
                         <div class="mt-4 font-normal lg:mb-16 sm:text-xl text-center">
-                            <h1 class="font-bold tracking-wide">Home Screen sederhana</h1>
-                            <p class="text-gray-500 text-lg">Didesain agar familiar bagi Anda.</p>
+                            <h1 class="font-bold tracking-wide">OtoFinder</h1>
+                            <p class="text-gray-500 text-lg">Temukan bengkel terdekat dari lokasi Anda</p>
                         </div>
                     </div>
                     {{-- Image 1 --}}
                     <div class="flex flex-col items-center justify-center">
-                        <img class="h-[550px]" src="{{ asset('assets/HalamanUtama.png') }}" alt="">
+                        <img class="h-[550px]" src="{{ asset('assets/mockup/otorescue.png') }}" alt="">
                         <div class="mt-4 font-normal lg:mb-16 sm:text-xl text-center">
-                            <h1 class="font-bold tracking-wide">Home Screen sederhana</h1>
-                            <p class="text-gray-500 text-lg">Didesain agar familiar bagi Anda.</p>
+                            <h1 class="font-bold tracking-wide">OtoRescue</h1>
+                            <p class="text-gray-500 text-lg">Panggil teknisi ahli ke lokasi anda saat darurat</p>
                         </div>
                     </div>
                     {{-- Image 1 --}}
                     <div class="flex flex-col items-center justify-center">
-                        <img class="h-[550px]" src="{{ asset('assets/HalamanUtama.png') }}" alt="">
+                        <img class="h-[550px]" src="{{ asset('assets/mockup/riwayat.png') }}" alt="">
                         <div class="mt-4 font-normal lg:mb-16 sm:text-xl text-center">
-                            <h1 class="font-bold tracking-wide">Home Screen sederhana</h1>
-                            <p class="text-gray-500 text-lg">Didesain agar familiar bagi Anda.</p>
+                            <h1 class="font-bold tracking-wide">Daftar Riwayat</h1>
+                            <p class="text-gray-500 text-lg">Seluruh riwayat transaksi ada pada satu tempat.</p>
                         </div>
                     </div>
 
@@ -106,64 +106,63 @@
     <section>
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Oto Ecosystem</h2>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Oto Ecosystem</h2>
                 <p class="font-normal text-gray-500 lg:mb-16 sm:text-xl">
                     Selesaikan segala masalah kendaraan dalam genggaman tangan Anda.
                 </p>
             </div>
             <div class="grid grid-cols-4 gap-8">
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> OtoRescue</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow  hover:bg-biru ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white"> OtoRescue</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Mengalami kendala saat ditengah perjalanan? Panggil teknisi dari bengkel disekitar Anda untuk membantu.
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoFinder</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoFinder</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Cari bengkel terdekat disekitar Anda berdasarkan rating yang ada
 
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoHistory</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">Catatan digital dari semua servis dan perbaikan Anda</p>
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru  ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoHistory</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">Catatan digital dari semua servis dan perbaikan Anda</p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoBook</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru  ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoBook</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Ingin Booking Servis dan ingin part tambahan? PIlih part yang Anda inginkan saat Booking Servis!
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoInsurance</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru  ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoInsurance</h5>
                         Integrasi dengan perusahaan asuransi untuk memudahkan proses klaim.
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoSupport</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru  ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoSupport</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Layanan dukungan pelanggan dan konsultasi dengan tim Customer Service.
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoShop</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru  ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white ">OtoShop</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Penjualan suku cadang dan aksesoris kendaraan melalui aplikasi.
                     </p>
                 </div>
                 {{-- Fitur 1 --}}
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">OtoCare</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">
+                <div class="group block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-biru ">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white">OtoCare</h5>
+                    <p class="font-normal text-gray-700 group-hover:text-gray-200">
                         Paket langganan untuk inspeksi kendaraan berkala dan layanan khusus
                     </p>
                 </div>
